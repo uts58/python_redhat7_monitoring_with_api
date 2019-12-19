@@ -22,24 +22,3 @@ id={
 	} 
 }
 
-python setup-tools
-create a rpm package for zabbix_client, python 2.7
-
-
-zabbix_aggentd.conf
-
-regex:
-uts
-
-# Server= 172.16.7.221
-
-# ServerActive= 172.16.7.221
-
-systemctl restart zabbix_agent.service
-
-systemctl enable zabbix_agent.service
-
-configuration>hosts>create host>
-
-
-zabbix agent version 349
